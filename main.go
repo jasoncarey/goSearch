@@ -24,14 +24,11 @@ func (d *DataStore) Add(vector Vector) {
 	d.data = append(d.data, newData)
 }
 
-func main() {
-	fmt.Println("Hi")
-
 // map id -> data
 //vectorsfn := map[int]Vector{}
 
 // map id -> neighbours
-//neighbours := map[int][]int{}
+//neighbours := map[int][]int{}.
 
 var store DataStore
 
