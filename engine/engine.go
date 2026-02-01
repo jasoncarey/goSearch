@@ -1,3 +1,4 @@
+// Package engine implements various vector database indexes
 package engine
 
 import (
